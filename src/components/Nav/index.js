@@ -6,13 +6,12 @@ export const NavBar = () => {
         <Container id='container'>
             <NavContainer id='nav-container'>
                 <ItemPanel id='item-panel'>
-            <NavItem text='Add New Investment'/>
-            <NavItem text='View All'/>
-            <NavItem text='Export as CSV'/>
-            </ItemPanel>
+                    <NavItem text='Add New Investment'/>
+                    <NavItem text='View All'/>
+                    <NavItem text='Export as CSV'/>
+                </ItemPanel>
             </NavContainer>
             <ContentContainer>
-                hi
             </ContentContainer>
         </Container>
     );
